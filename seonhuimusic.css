@@ -1,0 +1,24 @@
+#title{
+  background-color: #fdcb6e;
+}
+
+h1{
+  text-align: center;
+font-family: 'Montserrat', sans-serif;
+  padding-top: 30px;
+  color:#8d309b;
+}
+.image{
+  padding: 20px;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color:#8d309b;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.menu{
+  padding:10px;
+}
