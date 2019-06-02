@@ -1,0 +1,26 @@
+#title{
+  background-color: #ff8246;
+}
+
+h1{
+  text-align: center;
+font-family: 'Montserrat', sans-serif;
+
+  color:#fff8a6;
+  font-size: 100px;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+  color:#8d309b;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.menu{
+  padding:10px;
+}
+.imagetwo{
+  text-align: center;
+  padding: 50px;
+}
