@@ -1,18 +1,29 @@
 #title{
   background-color: #1c1259;
 }
-#intro{
-  background-color: #87c0cd;
+.intro{
+  padding-top: 300px;
+  padding-bottom: 450px;
+
 }
 
 h1{
   text-align: center;
-font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   padding-top: 35px;
+
+
 }
 
 h2{
   text-align: center;
 font-family: 'Josefin Sans', sans-serif;
   color:white;
+}
+section {
+ background-image: url("https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555925583/shape/mentalfloss/ada_lovelace_portrait_by_chalon_1838.jpg");
+ background-color: #cccccc;
+ background-size:cover;
+ opacity: 0.6;
+ filter: alpha(opacity=50);
 }
