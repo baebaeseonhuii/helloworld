@@ -1,22 +1,32 @@
 #title{
-  background-color: #ff8246;
+  background-color: #d3d4d8;
 }
 
 h1{
   text-align: center;
 font-family: 'Montserrat', sans-serif;
 
-  color:#fff8a6;
+  color:#112d4e;
   font-size: 50px;
+  animation-name: bomb;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes bomb {
+  from { font-size: 700%;}
+  to{ font-size: 100%;}
 }
 
 h2{
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color:#8d309b;
-  padding-top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  color:#112d4e;
+  padding-top: 30px;
   padding-bottom: 30px;
+
 }
+
 .menu{
   padding:10px;
 }
@@ -29,4 +39,7 @@ span{
 }
 span:hover{
   font-size : 200%;
+}
+.dropdown-item:hover{
+  background-color: #fff8a6;
 }

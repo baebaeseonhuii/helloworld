@@ -2,8 +2,8 @@
   background-color: #1c1259;
 }
 .intro{
-  padding-top: 300px;
-  padding-bottom: 450px;
+  padding-top: 100px;
+  padding-bottom: 140px;
 
 }
 
@@ -26,4 +26,7 @@ section {
  background-size:cover;
  opacity: 0.6;
  filter: alpha(opacity=50);
+}
+.form{
+  text-align: center;
 }
