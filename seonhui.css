@@ -43,3 +43,8 @@ span:hover{
 .dropdown-item:hover{
   background-color: #fff8a6;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+  #grid{
+    display: block;
+  }
+}
