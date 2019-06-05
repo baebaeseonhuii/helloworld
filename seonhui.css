@@ -9,12 +9,12 @@ font-family: 'Montserrat', sans-serif;
   color:#112d4e;
   font-size: 50px;
   animation-name: bomb;
-  animation-duration: 1s;
+  animation-duration: 0.9s;
   animation-iteration-count: 1;
 }
 
 @keyframes bomb {
-  from { font-size: 700%;}
+  from { font-size: 600%;}
   to{ font-size: 100%;}
 }
 
@@ -35,7 +35,7 @@ h2{
   padding: 50px;
 }
 span{
-  transition : font-size 2s;
+  transition : font-size 1s;
 }
 span:hover{
   font-size : 200%;

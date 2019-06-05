@@ -1,12 +1,13 @@
 #title{
-  background-color: #fdcb6e;
+  background-color: #553c8b;
+  background: linear-gradient( to bottom, #692db7 5%, #00028c, #692db7, #d527b7, #8158fc );
 }
 
 h1{
   text-align: center;
 font-family: 'Montserrat', sans-serif;
   padding-top: 30px;
-  color:#f16821;
+  color:#f7ff56;
 }
 .image{
   padding: 20px;
@@ -15,7 +16,7 @@ font-family: 'Montserrat', sans-serif;
 h2{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color:#f16821;
+  color:#f7ff56;
   padding-top: 60px;
   padding-bottom: 30px;
 }
