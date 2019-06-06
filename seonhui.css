@@ -9,13 +9,13 @@ font-family: 'Montserrat', sans-serif;
   color:#112d4e;
   font-size: 50px;
   animation-name: bomb;
-  animation-duration: 0.9s;
+  animation-duration: 0.8s;
   animation-iteration-count: 1;
 }
 
 @keyframes bomb {
-  from { font-size: 600%;}
-  to{ font-size: 100%;}
+  from { font-size: 400%;}
+  to{ font-size: 90%;}
 }
 
 h2{
