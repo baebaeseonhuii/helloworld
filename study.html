@@ -29,11 +29,11 @@ window.onclick = function(event) {
   <body>
   <header id="title">
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
         <a class="navbar-brand" href="study.html">Hello World, Hello Women</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+        </button>
 
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -68,13 +68,18 @@ window.onclick = function(event) {
     </nav>
 
     <div class="intro">
-      <h1 style="color:white">Welcome to our first Website</h1>
+      <h1>Welcome to our first Website</h1>
       <br>
-      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
       <br>
       <br>
       <h2>Join our group, you're welcomed if you're a woman</h2>
     </div>
+
+    <div class="buttondiv">
+      <button class="button1" onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+    </div>
+
+<!-- sign up button  -->
 
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -108,17 +113,29 @@ window.onclick = function(event) {
 
 
 </header>
-<br><br><br><br><br><br><br><br><br><br><br>
+
 <section>
-  <div>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <div class="imgada">
+  <img align="right" width="60%" height="80%" src="https://s24193.pcdn.co/wp-content/uploads/2016/07/entity-women-that-did-ada-lovelace-1320x720.jpg" alt="ada">
   </div>
 
-  <p style="font-size: 50px; padding-left: 50px; color: #1c1259; font-family: 'Cormorant Garamond', serif;"> Ada Lovelace</p>
-  <br>
-  <p style="font-size: 50px; padding-left: 50px; color: #1c1259; font-family: 'Cormorant Garamond', serif;"> The First Programmer</p>
-  <br><br><br>
+  <div class="adap">
+    <p> Ada Lovelace</p>
+    <p> The First Programmer</p>
+  </div>
+
+  <div class="imgkath">
+    <img align="left" width="55%" height="70%" src="http://epmgaa.media.clients.ellingtoncms.com/img/photos/2016/09/15/NIE_-_Katherine_Johnson_t750x550.png?d885fc46c41745b3b5de550c70336c1b382931d2" alt="kath">
+  </div>
+
+  <div class="kath">
+    <p> Katherine Johnson</p>
+    <p> The Hidden Figure of NASA</p>
+  </div>
 
 </section>
+
   </body>
+
 </html>
