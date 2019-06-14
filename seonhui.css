@@ -24,8 +24,15 @@ h2{
 }
 
 .menu{
-  padding:10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #d3d4d8;
 }
+
+
+
 .imagetwo{
   text-align: center;
   padding: 50px;
@@ -37,7 +44,7 @@ span:hover{
   font-size : 200%;
 }
 .dropdown-item:hover{
-  background-color: #fff8a6;
+  background-color: #00adb5;
 }
 @media (min-width: 320px) and (max-width: 480px) {
   #grid{
@@ -45,7 +52,7 @@ span:hover{
   }
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
