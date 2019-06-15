@@ -1,74 +1,25 @@
 #title{
-  background-color: #d3d4d8;
+
+  background: linear-gradient( to bottom, #692db7 5%, #00028c, #692db7, #d527b7, #8158fc, #00028c, #692db7);
 }
 
-.seonintro{
+h1{
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-
-  color:#112d4e;
-  font-size: 50px;
-
+font-family: 'Montserrat', sans-serif;
+  padding-top: 30px;
+  color:#f7ff56;
 }
-
-
-
-
+.image{
+  padding: 20px;
+  text-align: center;
+}
 h2{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color:#112d4e;
-  padding-top: 30px;
+  color:#f7ff56;
+  padding-top: 60px;
   padding-bottom: 30px;
-
 }
-
-
-
-.imagetwo{
-  text-align: center;
-  padding: 50px;
-}
-span{
-  transition : font-size 1s;
-}
-span:hover{
-  font-size : 200%;
-}
-
-
-.card {
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
-
-.pcard {
-  color: grey;
-  font-size: 18px;
-}
-
-#button1 {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.acard {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
 .menu{
   list-style-type: none;
   margin: 0;
