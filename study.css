@@ -34,7 +34,7 @@ h2{
 
 .imgada{
   padding-top: 300px;
-
+  padding-left: 50px;
 }
 
 .adap{
@@ -48,12 +48,13 @@ h2{
 .imgkath{
   padding-top: 300px;
   padding-bottom: 240px;
+  padding-right: 50px;
 }
 
 .kath{
   font-size: 50px;
   padding-right: 50px;
-
+  padding-top: 300px;
   color: #1c1259;
   font-family: 'Cormorant Garamond', serif;
   text-align: right;
