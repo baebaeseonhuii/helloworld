@@ -66,3 +66,8 @@ button:hover, a:hover {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+.star{
+  text-align: center;
+  padding: 50px;
+}
