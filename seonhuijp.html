@@ -83,11 +83,17 @@
     <div class="hero-image">
       <div class="hero-text">
 
-        <h1>Japan</h1>
+        <span id="chan"><h1><a href="#" onclick="displayPhrase()" style="color: white">Japan</a></h1></span>
         <br><br><br><br><br><br><br><br>
 
       </div>
     </div>
 </section>
+<script>
+function displayPhrase()
+{
+  document.getElementById("chan").innerHTML = 'About Japan';
+}
+</script>
   </body>
 </html>
