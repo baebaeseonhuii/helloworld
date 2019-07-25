@@ -71,3 +71,9 @@ button:hover, a:hover {
   text-align: center;
   padding: 50px;
 }
+
+.card {
+        margin: 0 auto; 
+        float: none;
+        margin-bottom: 10px;
+}
